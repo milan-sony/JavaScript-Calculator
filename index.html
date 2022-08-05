@@ -1,44 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <h1>cal</h1>
-  <div class="container">
-    <form>
-      <p>Casio</p>
-      <input type="text" class="screen" id="screen">
-      <br>
-      <input type="button" class="button number" value="7" onclick="btnClick(value)">
-      <input type="button" class="button number" value="8" onclick="btnClick(value)">
-      <input type="button" class="button number" value="9" onclick="btnClick(value)">
-      <input type="button" class="button operator" value="/" onclick="btnClick(value)">
-      <br>
-      <input type="button" class="button number" value="4" onclick="btnClick(value)">
-      <input type="button" class="button number" value="5" onclick="btnClick(value)">
-      <input type="button" class="button number" value="6" onclick="btnClick(value)">
-      <input type="button" class="button operator" value="*" onclick="btnClick(value)">
-      <br>
-      <input type="button" class="button number" value="1" onclick="btnClick(value)">
-      <input type="button" class="button number" value="2" onclick="btnClick(value)">
-      <input type="button" class="button number" value="3" onclick="btnClick(value)">
-      <input type="button" class="button operator" value="+" onclick="btnClick(value)">
-      <br>
-      <input type="button" class="button clear" value="AC" onclick="clearScreen()">
-      <input type="button" class="button number" value="0" onclick="btnClick(value)">
-      <input type="button" class="button result" value="=" onclick="findResult()">
-      <input type="button" class="button operator" value="+" onclick="btnClick(value)">
-    </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>cal</h1>
+    <div class="container">
+      <form>
+        <p>Casio</p>
+        <input type="text" class="screen" id="screen" />
+        <br />
+        <input
+          type="button"
+          class="button number"
+          value="7"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="8"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="9"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button operator"
+          value="/"
+          onclick="btnClick(value)"
+        />
+        <br />
+        <input
+          type="button"
+          class="button number"
+          value="4"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="5"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="6"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button operator"
+          value="*"
+          onclick="btnClick(value)"
+        />
+        <br />
+        <input
+          type="button"
+          class="button number"
+          value="1"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="2"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="3"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button operator"
+          value="+"
+          onclick="btnClick(value)"
+        />
+        <br />
+        <input
+          type="button"
+          class="button clear"
+          value="AC"
+          onclick="clearScreen()"
+        />
+        <input
+          type="button"
+          class="button number"
+          value="0"
+          onclick="btnClick(value)"
+        />
+        <input
+          type="button"
+          class="button result"
+          value="="
+          onclick="findResult()"
+        />
+        <input
+          type="button"
+          class="button operator"
+          value="+"
+          onclick="btnClick(value)"
+        />
+      </form>
+    </div>
 
-  </div>
-
-
-
-  <script src="./script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
