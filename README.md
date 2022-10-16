@@ -1,3 +1,3 @@
-A Simple Calculator made with HTML, CSS and JavaScript.
+# JavaScript Calculator
 
-Live Link: https://milan-sony.github.io/JavaScript-Calculator/
+A simple calculator build using javascript
